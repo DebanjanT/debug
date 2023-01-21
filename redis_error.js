@@ -8,7 +8,7 @@ import cookieParser from "cookie-parser";
 import { handleApiKey, handleApiToken } from "./middleware/apiMd";
 import { sendSlackMessage } from "./utils/slack";
 import { reqBlocker } from "./middleware/reqblocker";
-// import redis from "redis";
+import redis from "redis";
 const logger = require("./utils/logger");
 const dns = require("dns");
 const { createServer } = require("http");
