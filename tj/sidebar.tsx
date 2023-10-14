@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { IChakraUiComponents } from "../../../libraries/chakraui/utils/components";
+import { IChakraUiComponents } from "@/libraries/chakraui/utils/components";
 import Link from "next/link";
 import { LucideIcon, RocketIcon } from "lucide-react";
 
